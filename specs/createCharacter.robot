@@ -2,9 +2,9 @@
 Documentation   Suite de teste do cadastro de personagens na API da Marvel
 
 Resource    ${EXECDIR}/resources/base.robot
-Library     ${EXECDIR}/resources/factories/thanos.py
+Library     ${EXECDIR}/resources/factories/guardians.py
 
-Suite Setup     Super Setup vinivini@gmail.com
+Suite Setup     Super Setup     vinivini@gmail.com
 
 *Test Cases*
 Deve cadastrar um personagem
